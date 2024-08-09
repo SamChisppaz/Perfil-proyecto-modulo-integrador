@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi perfil</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Finger+Paint&family=Indie+Flower&family=Orbitron:wght@400..900&family=Permanent+Marker&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="contenedor">
+                <ul>
+                    <li><a href="#sobre-mi">Sobre Mí</a></li>
+                    <li><a href="#mis-proyectos">Mis Proyectos</a></li>
+                    <li><a href="#mis-habilidades">Mis Habilidades</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="seccion-principal" class="contenedor">
+            <div class="contenido-principal">
+                <img src="recursos/foto.jpg" alt="Foto de perfil de Sandra Ramirez" class="foto-perfil">
+                <div class="texto-principal">
+                    <h1>Hola, soy <span></span></h1>
+                    <p>Desarrolladora fullstack en formación.</p>
+                    <a href="#contacto" class="boton">Contáctame</a>
+                </div>
+            </div>
+        </section>
+        <section id="sobre-mi" class="contenedor">
+            <h2>Sobre Mí</h2>
+            <p>Estoy comenzando mi viaje en el desarrollo web, dedico mi tiempo a aprender HTML, CSS y JavaScript. <br>Haciendo este perfil, pongo en práctica los conocimientos que he adquirido hasta el momento.</br></p>
+        </section>
+        <section id="mis-proyectos" class="contenedor">
+            <h2>Mis Proyectos</h2>
+            <div class="grid-proyectos">
+                <div class="tarjeta-proyecto">
+                    <img src="recursos/calculararea.png" alt="Ejercicio 1 calcular area">
+                    <h3>Ejercicio 1: Calcular Área </h3>
+                    <p>Programé en Pseint un código para calcular el área y el perímetro, solo hay que introducir las diferentes dimensiones y el código hace el cálculo automáticamente</p>
+                </div>
+                <div class="tarjeta-proyecto">
+                    <img src="recursos/juegoadivinanza.png" alt="Ejercicio 2 Juego adivinanza">
+                    <h3>Ejercicio 2: Calcular Área y Perímetro</h3>
+                    <p>Escribí un código en Pseint para un juego de adivinanza muy divertido para la familia. El usuario intenta adivinar un número secreto, y el código da pistas si el número es mayor o menor que el objetivo.</p>
+                </div>
+                <div class="tarjeta-proyecto">
+                    <img src="recursos/numerosfibonnacci.png" alt="Ejercicio 3 fibonacci">
+                    <h3>Ejercicio 3: Números Fibonacci</h3>
+                    <p>Codifiqué una secuencia de números Fibonacci. El código calcula la secuencia hasta el número que especifiques y lo muestra en la pantalla.</p>
+                </div>
+            </div>
+        </section>
+        <section id="mis-habilidades" class="contenedor">
+            <h2>Mis Habilidades</h2>
+            <div class="grid-habilidades">
+                <div class="item-habilidad">
+                    <img src="recursos/html-5.png" alt="Logo de HTML5" class="logo-habilidad">
+                    <h3>HTML</h3>
+                    <div class="barra-habilidad">
+                        <div class="nivel-habilidad" style="width: 65%;"></div>
+                    </div>
+                </div>
+                <div class="item-habilidad">
+                    <img src="recursos/css.png" alt="Logo de CSS" class="logo-habilidad">
+                    <h3>CSS</h3>
+                    <div class="barra-habilidad">
+                        <div class="nivel-habilidad" style="width: 60%;"></div>
+                    </div>
+                </div>
+                <div class="item-habilidad">
+                    <img src="recursos/javascript.png" alt="Logo de JavaScript" class="logo-habilidad">
+                    <h3>JavaScript</h3>
+                    <div class="barra-habilidad">
+                        <div class="nivel-habilidad" style="width: 45%;"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contacto" class="contenedor">
+            <h2>Contáctame</h2>
+            <div class="info-contacto">
+                <a href="sandramrr9@gmail.com">
+                    <img src="recursos/gmail.png" alt="Icono de Gmail" class="icono-contacto">
+                    sandramrr9@gmail.com
+                </a>
+                <a href="https://github.com/SamChisppaz" target="_blank" rel="noopener noreferrer">
+                    <img src="recursos/github.png" alt="Icono de GitHub" class="icono-contacto">
+                    GitHub
+                </a>
+                <a href="tel:+3107472099">
+                    <img src="recursos/celular..png" alt="icono celular" class="icono-contacto">
+                    +573107472099
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
